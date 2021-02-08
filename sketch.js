@@ -25,7 +25,7 @@ function setup() {
   monkey.addAnimation("monkeyrunning",monkey_running);
   monkey.scale = 0.1;
   
-  ground = createSprite(200,340,400,20);
+  ground = createSprite(200,340,900,20);
   ground.x = ground.width /2;
   ground.velocityX = 0
   
